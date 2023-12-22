@@ -33,6 +33,6 @@ else:
 for item in sys.argv[1::]:
     temp = hexToDec(item)
     if temp:
-        print(f'Converted Hexidecimal value {item} into Decimal valude {temp}')
+        print(f'Converted Hexidecimal value {item} into Decimal value {temp}')
     else:
         print(f'Argument {item} contains values that do not exist in Hexidecimal.')
